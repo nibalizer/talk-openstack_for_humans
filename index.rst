@@ -22,6 +22,7 @@ March 12, 2016
    * Who am I
    * What do I work on
    * github
+   * This talk is my version of an introduction to openstack
 
 
 Portland
@@ -48,18 +49,83 @@ Agenda
 * Examples
 
 
+Who Am I?
+=========
+
+
+.. note::
+    * Sysop
+    * PSU
+    * Work at IBM
+    * I build the infrastructure that tests openstack, jenkins, code hosting
+    * Working at IBM to deploy a cloud
+
+
+
+What is OpenStack
+=================
+
+.. rst-class:: build
+
+* Python Daemons
+* Infrastructure as a Service
+* Open Source
+
+
+.. note::
+    * Python daemon that takes in rest api and then causes other things to happen
+    * Some kind of a programmable thing that does stuff that datacenter techs used to do
+    * Ticket to get a vm
+    * Rest API to get a vm
+    * Apache 2
+
+
+What OpenStack is Not
+=====================
+
+.. rst-class:: build
+
+* Hypervisor
+* Amazon
+
+
+.. note::
+    * Xen, Kvm, Virtualbox, Vmware these are hypervisors
+    * Amazon web services, its not that and its not compatible
+
+
+The Four Opens
+==============
+
+* Open Source
+* Open Design
+* Open Development
+* Open Community
+
+
+.. note::
+    * Not Open Core, Apache2
+    * Design is open and open to contributors
+    * The development is done in the open with open tooling
+    * The discussion and voting and technical direction is all transparent
+    * There is a CoC
+
+
+
 History
 =======
 
-* Started 5 years ago
-* Open Source
+* Started 2010
+* Collaboration between Rackspace and NASA
 
 .. note::
-    * pleia jim/monty sitck figures
-    * pre ansible (python shop)
-    * tried chef, hard
-    * went with puppet
-    * Heavy CI/CD culture, everything goes through git, delpoy - grafana
+    * I started working on it in 2014
+
+
+
+
+
+
 
 Primary Services
 ================
