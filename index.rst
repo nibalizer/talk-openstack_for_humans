@@ -284,6 +284,20 @@ CLI: Future
 .. figure:: _static/openstack-server-list.gif
    :align: center
 
+CLI: Recap
+=============
+
+Upload a new image
+
+.. code-block:: shell
+
+   nova list
+   nova boot
+   openstack server list
+   openstack server create
+   openstack flavor list
+   openstack image list
+
 
 CLI: Advanced
 =============
@@ -447,7 +461,8 @@ References (cont)
 * OpenStack Client: http://docs.openstack.org/developer/python-openstackclient/
 * OpenStack UX Team: https://wiki.openstack.org/wiki/UX
 * Getting started contributing https://wiki.openstack.org/wiki/How_To_Contribute
-
+* Ansible openstack inventory: https://github.com/ansible/ansible/blob/devel/contrib/inventory/openstack.py
+* Terraform OpenStack provider: https://www.terraform.io/docs/providers/openstack/index.html
 
 
 
