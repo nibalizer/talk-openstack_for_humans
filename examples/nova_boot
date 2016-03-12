@@ -1,0 +1,31 @@
+$: nova boot --image 'ubuntu 14.04 server'  --flavor small --key nibz new-vm
++--------------------------------------+------------------------------------------------------------+
+| Property                             | Value                                                      |
++--------------------------------------+------------------------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                                     |
+| OS-EXT-AZ:availability_zone          | nova                                                       |
+| OS-EXT-STS:power_state               | 0                                                          |
+| OS-EXT-STS:task_state                | scheduling                                                 |
+| OS-EXT-STS:vm_state                  | building                                                   |
+| OS-SRV-USG:launched_at               | -                                                          |
+| OS-SRV-USG:terminated_at             | -                                                          |
+| accessIPv4                           |                                                            |
+| accessIPv6                           |                                                            |
+| adminPass                            | 6osHCGXB8LGu                                               |
+| config_drive                         |                                                            |
+| created                              | 2016-03-12T08:43:20Z                                       |
+| flavor                               | small (small)                                              |
+| hostId                               |                                                            |
+| id                                   | 6c6b6483-35aa-47a6-9af1-eadc801fb3ce                       |
+| image                                | ubuntu 14.04 server (e45c00df-b189-414c-b82c-0917cd8a464d) |
+| key_name                             | nibz                                                       |
+| metadata                             | {}                                                         |
+| name                                 | new-vm                                                     |
+| os-extended-volumes:volumes_attached | []                                                         |
+| progress                             | 0                                                          |
+| security_groups                      | default                                                    |
+| status                               | BUILD                                                      |
+| tenant_id                            | 3e23ade3701f4622a8f58090b8cb9355                           |
+| updated                              | 2016-03-12T08:43:19Z                                       |
+| user_id                              | 31e0f9c3451e48ceb16897c06e2210f2                           |
++--------------------------------------+------------------------------------------------------------+
