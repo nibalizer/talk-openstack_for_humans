@@ -7,13 +7,13 @@
 OpenStack For Humans
 ====================
 
-.. figure:: _static/cascadia_logo.png
+.. figure:: _static/openwest.gif
    :align: left
    :width: 400px
 
 Spencer Krum, IBM
 
-March 12, 2016
+July 14, 2016
 
 @nibalizer
 
